@@ -45,7 +45,7 @@
     position: relative;
 }
 
-.fas.fa-shopping-cart {
+.fas .fa-shopping-cart {
     font-size: 1.5em;
     color: #333;
 }
@@ -88,7 +88,7 @@
         font-size: 0.9em;
     }
 
-    .fas.fa-shopping-cart {
+    .fas .fa-shopping-cart {
         font-size: 1.2em;
     }
 
@@ -113,7 +113,9 @@
     }
 
     .nav-links {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: flex-start;
     }
 
@@ -127,7 +129,7 @@
         align-self: flex-end;
     }
 
-    .fas.fa-shopping-cart {
+    .fas .fa-shopping-cart {
         font-size: 1em;
     }
 
