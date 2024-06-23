@@ -101,11 +101,14 @@
 @media (max-width: 480px) {
     .card-header {
         padding: 10px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
     }
 
     .header-logo img {
         width: 50px;
-        height: 30px;
+        height: 50px;
     }
 
     .heading {
@@ -127,6 +130,7 @@
 
     .cart-icon-wrapper {
         align-self: flex-end;
+        padding-bottom: 10px;
     }
 
     .fas .fa-shopping-cart {
