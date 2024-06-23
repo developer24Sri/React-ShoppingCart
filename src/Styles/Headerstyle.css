@@ -60,3 +60,79 @@
     padding: 5px 10px;
     font-size: 0.5em;
 }
+
+@media (max-width: 768px) {
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-logo img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .heading {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .nav-link {
+        margin-right: 10px;
+        font-size: 0.9em;
+    }
+
+    .fas.fa-shopping-cart {
+        font-size: 1.2em;
+    }
+
+    .cart-count {
+        padding: 4px 8px;
+        font-size: 0.4em;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-header {
+        padding: 10px;
+    }
+
+    .header-logo img {
+        width: 50px;
+        height: 30px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    .cart-icon-wrapper {
+        align-self: flex-end;
+    }
+
+    .fas.fa-shopping-cart {
+        font-size: 1em;
+    }
+
+    .cart-count {
+        padding: 3px 6px;
+        font-size: 0.3em;
+    }
+}
